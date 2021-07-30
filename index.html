@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkoopAssignment</title>
+    <script src="https://kit.fontawesome.com/8b6c44059c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left-content">
+            <div id="toggle"></div>
+            <div class="logo" id="logo">
+                <h2>Lorem <span>Ipsum</span></h2>
+            </div>
+            <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#" class="actives">About</li>
+                    <li><a href="#">Services</li>
+                    <li><a href="#">Cuisine</li>
+                    <li><a href="#">Gallery</li>
+                    <li><a href="#">Contact</li>
+                    <li><a href="#">Block</li>
+                </ul>
+                <div class="btn">
+                    <button type="button">Cart</button>
+                </div>
+            </nav>
+        </div>
+        <div class="right-content">
+            <div class="content">
+                <h1 class="heading">What are you having for lunch?</h1>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione quidem maiores
+                    recusandae similique cum dicta iure aliquid amet voluptatem voluptatem.</p>
+            </div>
+            <div class="grid-card">
+                <div class="cards">
+                    <div class="image">
+                        <img src="pic1.jpg" alt="pic">
+                        <div class="title">Pizza</div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image">
+                        <img src="pic1.jpg" alt="pic">
+                        <div class="title">Pizza</div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image">
+                        <img src="pic1.jpg" alt="pic">
+                        <div class="title">Pizza</div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image">
+                        <img src="pic1.jpg" alt="pic">
+                        <div class="title">Pizza</div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image">
+                        <img src="pic1.jpg" alt="pic">
+                        <div class="title">Pizza</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <!-- scripting -->
+    <script>
+        const toggle= document.getElementById('toggle');
+        const navbar= document.getElementById('navbar');
+
+        toggle.onclick=function(){
+            toggle.classList.toggle('active');
+            navbar.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
